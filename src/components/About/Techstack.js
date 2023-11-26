@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -8,14 +7,15 @@ import {
   DiGit,
   DiJava,
   DiDocker,
-  DiJenkins,
   DiPhp
 } from "react-icons/di";
 
 import {
   SiAmazonaws,
   SiKubernetes,
-  SiGnubash
+  SiGnubash,
+  SiJenkins,
+  SiDocker
 } from "react-icons/si";
 
 
@@ -23,7 +23,7 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDocker />
+        <SiDocker />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -43,7 +43,7 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiJenkins />
+        <SiJenkins />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
