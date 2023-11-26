@@ -19,16 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am fluent in classics like
-              <i>
-                <b className="purple"> C++ and Python. </b>
-              </i>
-              <br />
-              <br />
-              I debug more than I code.
-              <br />
-              <br />
-              My pronouns are <i><b>Jack of All Trades / Master of none</b></i>
+              <p>
+              Greetings! I am a passionate Junior DevOps Engineer with a strong foundation
+               in Linux and expertise in various DevOps subjects. My journey in the tech industry
+                has been marked by a commitment to optimizing processes, ensuring seamless deployments,
+                 and enhancing overall system reliability. Explore my portfolio to discover how my skills
+                  and dedication can contribute to the success of your projects.
+              </p>
+          
+            
+             
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -46,7 +46,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sukrutrahane"
+                  href="https://github.com/MuhanedYahya"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -54,19 +54,19 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
-                  href="https://twitter.com/sukrutrahane"
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sukrutrahane/"
+                  href="https://www.linkedin.com/in/muhaned-yahya"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,16 +74,16 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sukkkrut"
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>

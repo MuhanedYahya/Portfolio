@@ -5,20 +5,51 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiPython,
   DiGit,
   DiJava,
+  DiDocker,
+  DiJenkins,
+  DiPhp
 } from "react-icons/di";
+
+import {
+  SiAmazonaws,
+  SiKubernetes,
+  SiGnubash
+} from "react-icons/si";
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiDocker />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiKubernetes />
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGnubash />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJenkins />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
@@ -29,15 +60,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      
-      
+
     </Row>
   );
 }
