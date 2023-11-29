@@ -4,10 +4,9 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,
+  FaDiscord } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -44,6 +43,18 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+
+            <li className="social-icons">
+                <a
+                  href="https://discord.gg/VjMw4qr5"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaDiscord />
+                </a>
+              </li>
+
               <li className="social-icons">
                 <a
                   href="https://github.com/MuhanedYahya"
