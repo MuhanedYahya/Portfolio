@@ -19,7 +19,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               <p>
-              Greetings! I am a passionate Junior DevOps Engineer with a strong foundation
+              Greetings! I am a passionate DevOps Engineer with a strong foundation
                in Linux and expertise in various DevOps subjects. My journey in the tech industry
                 has been marked by a commitment to optimizing processes, ensuring seamless deployments,
                  and enhancing overall system reliability. Explore my portfolio to discover how my skills

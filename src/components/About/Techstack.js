@@ -6,7 +6,6 @@ import {
   DiNodejs,
   DiGit,
   DiJava,
-  DiDocker,
   DiPhp
 } from "react-icons/di";
 
@@ -15,7 +14,13 @@ import {
   SiKubernetes,
   SiGnubash,
   SiJenkins,
-  SiDocker
+  SiDocker,
+  SiTerraform,
+  SiAzuredevops,
+  SiDotnet,
+  SiArgo,
+  SiPostgresql,
+  SiMongodb
 } from "react-icons/si";
 
 
@@ -44,6 +49,24 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <SiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAzuredevops />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiArgo />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">

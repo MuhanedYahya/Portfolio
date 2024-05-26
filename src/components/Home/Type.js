@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "DevOps Engineer",
           "Cloud Engineer",
-          "Linux System Administrator",
+          "SRE Engineer",
         ],
         autoStart: true,
         loop: true,
