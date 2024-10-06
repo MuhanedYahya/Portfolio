@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
+import AboutCardExperience from "./AboutCardExperience";
+import AboutCardHobbies from "./AboutCardHobbies";
 import laptopImg from "../../Assets/muhaned.jpg";
 import Tilt from "react-parallax-tilt";
 
@@ -24,6 +26,14 @@ function About() {
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <Aboutcard />
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px",paddingTop: "20px",align:"left" }}>
+               <strong >Experience</strong>
+            </h1>
+            <AboutCardExperience />
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px",paddingTop: "20px",align:"left" }}>
+               <strong >Hobbies</strong>
+            </h1>
+            <AboutCardHobbies />
           </Col>
           <Col
             md={5}
