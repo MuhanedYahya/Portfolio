@@ -1,0 +1,6 @@
+for new github pages release
+
+npm run build (to check errors)
+
+npm run deploy (for gh-pages)
+
